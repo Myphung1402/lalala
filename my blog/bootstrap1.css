@@ -1,0 +1,93 @@
+html, body, footer{
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    background-color: #f1f1f1
+}
+header {
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+.one, .two, .three, .four, .five{
+    margin-top: 16px;
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19)
+}
+
+img {width: 100%;}
+
+h4{
+    padding-left: 16px;
+    padding-top: 12px;
+}
+.text, li, button{
+    border: solid 1px #f1f1f1;
+    background-color: white;
+    padding: 16px;
+    
+}
+.comment{
+    padding: 12px;
+    float: right;
+}
+.number0{
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+.number2{
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+ul{ 
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.posts{
+    margin-right: 5px;
+    float: left;
+    width: 50px;
+}
+
+.travel, .footbutton{
+    background-color: black;
+    color: white;
+    border: none;
+}
+.tags span{
+    background-color:#f1f1f1;
+    margin-bottom: 10px;
+}
+footer{
+    background-color: #616161;
+    padding: 32px;
+    margin: 16px;
+    height: 150px;
+}
+.powered{
+    color: white;
+    margin: 15px;
+}
+
+
+
+
+
+
+
