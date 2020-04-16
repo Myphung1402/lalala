@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./ss5.css">
+</head>
+<body>
+    <form id="myForm">
+        <label for="">Tên đăng nhập</label>
+        <input for="text" onchange="onChangeUsername(event.target.value)"></input>
+        <label for="">Mật khẩu</label>
+        <input for="password" onchange="onChangePassword(event.target.value)"></input>
+        <label for="text">Nhập lại mật khẩu</label>
+        <input type="text" onchange="onChangeRePassword(event.target.value)">
+        <button onclick="handleSubmit()">Đăng nhập</button>
+    </form>
+        
+
+    <script src="./ss5.js"></script>
+</body>
+</html>
